@@ -22,11 +22,3 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(label)
 
-
-app = QApplication(sys.argv)
-
-window = MainWindow()
-
-window.show()
-
-app.exec_()
