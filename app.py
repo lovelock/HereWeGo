@@ -4,12 +4,12 @@ import sys
 
 from PyQt5.QtWidgets import QApplication
 
-from Form import Form
+from AddressBook import AddressBook
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
 
-    form = Form()
-    form.show()
+    addressBook = AddressBook()
+    addressBook.show()
 
     sys.exit(app.exec_())
